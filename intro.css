@@ -176,19 +176,24 @@ h1 {
   width: 100%;
   z-index: 0;
   background-size: cover;
+  height: 100%;
+  object-fit: cover;
 }
 
 .first{
   border-radius: 30%;
   background-size: auto;
+  opacity: 0.8;
+  
 }
 
-.two{
+/* .two{
   border-radius: 30%;
   background-size: auto;
-}
+  opacity: 0.7;
+} */
 
-.ddd{
+.bigbox{
   display: flex;
   position: absolute;
   width: 100%;
@@ -200,4 +205,31 @@ h1 {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.but1{
+  font-family: test;
+  width: 80px;
+  box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
+  border: 0;
+  outline: 0;
+  border-radius: 10%;
+  background-color: pink;
+}
+.but2{
+  font-family: test;
+  width: 80px;
+  box-shadow: 200px 0 0 0 rgba(0,0,0,0.5) inset;
+  border: 0;
+  outline: 0;
+  border-radius: 10%;
+  background-color: pink;
+}
+.but1:hover{color:#fff;}
+.but2:hover{color:#fff;}
+
+.txt1{
+  font-family: test;
+}
+.txt2{
+  font-family: test;
 }
